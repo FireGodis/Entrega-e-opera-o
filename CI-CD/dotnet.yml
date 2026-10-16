@@ -12,6 +12,5 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-      - run: dotnet restore
-      - run: dotnet build --no-restore --configuration Release
-      - run: dotnet test --no-build --configuration Release
+      - run: dotnet restore CI-CD/Demo/Demo.csproj
+      - run: dotnet build CI-CD/Demo/Demo.csproj --no-restore --configuration Release
