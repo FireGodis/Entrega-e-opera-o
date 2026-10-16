@@ -1,3 +1,3 @@
 # Pipeline CI/CD com GitHub Actions
 
-Eu configurei um exemplo de pipeline que restaura, compila e executa testes de um projeto .NET em push e pull request. O fluxo pressupõe uma solução .NET na raiz.
+Eu configurei um exemplo de integração contínua que restaura e compila a aplicação de console .NET desta pasta em cada push e pull request. O pipeline demonstra a validação automatizada de build para uma aplicação pequena.
